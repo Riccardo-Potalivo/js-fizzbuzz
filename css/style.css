@@ -10,12 +10,13 @@
 /***************************************************
 palette
 ***************************************************/
+/* Color Theme Swatches in Hex */
+
 
 
 /***************************************************
 variables
 ***************************************************/
-
 
 /***************************************************
 utility
@@ -36,5 +37,29 @@ general
 {
     height: 50px;
     aspect-ratio: 1;
-    background-color: red;
+}
+    
+.bg_primary
+{
+    background-color: #44803F;
+}
+
+.bg_number
+{
+    background-color: #B4CF66;
+}
+
+.bg_fizz
+{
+    background-color: #FFEC5C;
+}
+
+.bg_buzz
+{
+    background-color: #146152;
+}
+
+.bg_fizzbuzz
+{
+    background-color: #FF5A33;
 }
