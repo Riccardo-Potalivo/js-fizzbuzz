@@ -33,7 +33,7 @@ for(let i = 1; i <= 100; i ++)
 
     
     const boxEl = document.createElement('div');
-    boxEl.className = `box_number ${bgBox}`;
+    boxEl.className = `box_number ${bgBox} d-flex justify-content-center align-items-center rounded-4 fw-bold`;
     boxEl.innerHTML = boxContent
     containerEl.append(boxEl)
 };

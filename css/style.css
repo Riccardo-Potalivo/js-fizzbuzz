@@ -21,21 +21,24 @@ variables
 /***************************************************
 utility
 ***************************************************/
-
+.fs_3
+{
+    font-size: 3rem;
+}
 
 /***************************************************
 general
 ***************************************************/
 #boxWrapper
 {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 50px auto;
     background-color: var(--ms-dark);
 }
 
 .box_number
 {
-    height: 50px;
+    height: 6rem;
     aspect-ratio: 1;
 }
     
