@@ -25,3 +25,16 @@ utility
 /***************************************************
 general
 ***************************************************/
+#boxWrapper
+{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: var(--ms-dark);
+}
+
+.box_number
+{
+    height: 50px;
+    aspect-ratio: 1;
+    background-color: red;
+}
